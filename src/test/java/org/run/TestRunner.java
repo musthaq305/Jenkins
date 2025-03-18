@@ -13,8 +13,7 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
                  ,glue="org.stepdefinition",dryRun=false,strict=true,snippets=SnippetType.UNDERSCORE
                  ,plugin= {"html:C:\\Users\\Admin\\eclipse-workspace\\CucumberMorning\\AllReports\\HtmlReport",
                 		 "junit:C:\\Users\\Admin\\eclipse-workspace\\CucumberMorning\\AllReports\\JunitReport\\facebook.xml",
-                		 "json:C:\\Users\\Admin\\eclipse-workspace\\CucumberMorning\\AllReports\\JsonReport\\fb.json",
-                		 "rerun:C:\\Users\\Admin\\eclipse-workspace\\CucumberMorning\\Rerun\\failed1.txt"}) 
+                		 "json:C:\\Users\\Admin\\eclipse-workspace\\CucumberMorning\\AllReports\\JsonReport\\fb.json"}) 
 
 //tags----To Execute or Ignore particular scenario or feature file
 //dryRun=false--It lead the normal execution and generate the snippets for undefined steps
